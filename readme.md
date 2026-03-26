@@ -1,25 +1,30 @@
-# Telegram Group Joiner Bot 🤖
+# 🤖 Telegram Group Joiner Bot
 
-A powerful Telegram bot that automatically joins multiple groups using user sessions. Add group links and let the bot join them automatically.
+A powerful Telegram bot that automatically joins multiple groups using user sessions. Simply add your account session and group links, and the bot will handle everything automatically.
 
-## Features ✨
+## 📌 Features
 
-- Add multiple Telegram group links
-- Manage user sessions
-- Auto-join groups with progress tracking
-- Status checking
-- Flood wait handling
-- Support for all Telegram link formats
+- ✅ **Auto Join Groups** - Automatically joins all added Telegram groups
+- ✅ **Session Management** - Add multiple user sessions easily
+- ✅ **Batch Processing** - Join hundreds of groups at once
+- ✅ **Progress Tracking** - Real-time progress updates
+- ✅ **Flood Control** - Automatic flood wait handling
+- ✅ **Error Handling** - Handles expired links, invalid invites, etc.
+- ✅ **Link Support** - All Telegram link formats supported
 
-## Prerequisites 📋
+## 🚀 Quick Start
 
-- Python 3.7+
+### 1. Prerequisites
+- Python 3.7 or higher
 - Telegram API credentials
 - Telegram Bot Token
 
-## Installation 🚀
+### 2. Installation
 
-1. Clone the repository:
 ```bash
+# Clone the repository
 git clone https://github.com/yourusername/telegram-group-joiner-bot.git
 cd telegram-group-joiner-bot
+
+# Install required packages
+pip install -r requirements.txt
