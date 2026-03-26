@@ -28,3 +28,11 @@ cd telegram-group-joiner-bot
 
 # Install required packages
 pip install -r requirements.txt
+
+# fill your variables 
+API_ID = 123456  # Get from https://my.telegram.org
+API_HASH = "your_api_hash_here"  # Get from https://my.telegram.org
+BOT_TOKEN = "your_bot_token_here"  # Get from @BotFather
+
+# Run this bot 
+  python bot.py
