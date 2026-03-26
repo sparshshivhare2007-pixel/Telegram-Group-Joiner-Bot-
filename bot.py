@@ -43,4 +43,8 @@ async def help_command(client, message):
 2. Send the .session file to bot
 3. Reply with `/addaccount`
 
-**Adding Links:**
+**How to create session:**
+```python
+from pyrogram import Client
+app = Client('my_session', api_id=YOUR_API_ID, api_hash='YOUR_API_HASH')
+app.run()
